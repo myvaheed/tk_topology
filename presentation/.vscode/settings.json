@@ -1,0 +1,7 @@
+{
+    "markdown.marp.enableHtml": true,
+    "markdown.marp.themes": [
+        "/home/myvaheed/Documents/Python/ML/Jupyter/Edu/TK_Keppler/presentation/base.css",
+        "/home/myvaheed/Documents/Python/ML/Jupyter/Edu/TK_Keppler/presentation/tk_pres.css"
+    ]
+}

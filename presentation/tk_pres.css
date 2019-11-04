@@ -1,0 +1,37 @@
+/*
+ * @theme tk_pres
+ */
+
+
+@import url(./base.css);
+@import 'default';
+
+/*font Montserrat*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+section {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-style: normal;
+    --main-color: #757575;
+    color: var(--main-color);
+    font-size: 30px;
+}
+
+section h1 {
+    color: #353535;
+}
+
+section.firstp {
+    color: white !important;
+    line-height: 1.2em;
+}
+section.firstp h1 {
+    color: white !important;
+    font-weight: bold;
+}
+section.firstp h2 {
+    font-size: 0.9em;
+    color: white !important;
+    font-weight: bold;
+}

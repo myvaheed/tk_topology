@@ -1,0 +1,57 @@
+/*
+ * @theme base_name
+ * @auto-scaling code
+ */
+
+@import 'default';
+
+
+section figure[style*="ex"] {
+    margin-right: 20px !important;
+}
+
+/* row align configure */
+
+section.rowalign {
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+section.rowalign p {
+    margin: 30px !important;
+}
+section.rowalign p:first-child  {
+    margin-left: 0 !important;
+}
+section.rowalign p:last-child  {
+    margin-right: 0 !important;
+}
+
+section.rowalign h1 {
+    flex: 0 0 100%;
+    text-align: left;
+}
+
+section.rowalign div {
+    text-align: left;
+}
+
+/* column wrap */
+section.cwrap {
+    flex-wrap: wrap;
+}
+
+/* column wrap */
+section.autoscale {
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+section.rightalign {
+    text-align: right;
+}
+
+
+
